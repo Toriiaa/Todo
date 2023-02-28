@@ -6,13 +6,7 @@
   color: white;
   padding-left: 0%;
 }
-.collection{
-display: flex;
-justify-content: space-between;
-}
+
 .container{
   padding: 20px;
-}
-.delete{
-  margin-left: 70%;
 }

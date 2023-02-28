@@ -18,15 +18,15 @@ function addTodo(e) {
   //   create li
   const li = document.createElement("li");
 
-  li.className = "collection-item list-group-item";
+  li.className = " collection-item list-group-item";
   //   append child
   li.appendChild(document.createTextNode(taskInput.value));
 
   //   create link element
   const link = document.createElement("a");
-  link.className = "delete-item secondary-content";
+  link.className = " delete-item secondary-content";
   link.innerHTML =
-    '<button type="button" class="delete" data-dismiss="alert">delete</button>';
+    '<button type="button" class="delete close" data-dismiss="alert" >delete</button>';
   li.appendChild(link);
 
   //   append li to Ul
